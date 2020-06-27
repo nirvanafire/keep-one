@@ -9,5 +9,7 @@ import xin.keepmoving.mybatis.BasePermissionMapper;
  * <p>@description: keep-one
  * <p>@since: v1.1
  **/
-public interface UserMapper extends BasePermissionMapper<User> {
+public interface UserMapper extends BaseMapper<User> {
+
+    User findByUsername(String username);
 }

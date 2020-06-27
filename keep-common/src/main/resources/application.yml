@@ -15,5 +15,6 @@ spring:
     username: admin
     password: Zzz123456*
 
-
+nirvana:
+  title: Keep One
 
