@@ -15,7 +15,6 @@
     <version>0.0.1-SNAPSHOT</version>
 
     <name>keep-common</name>
-    <url>http://www.example.com</url>
 
     <properties>
         <fastjson.version>1.2.68</fastjson.version>
@@ -71,7 +70,6 @@
             <version>1.18.12</version>
             <scope>provided</scope>
         </dependency>
-
     </dependencies>
 
     <build>
